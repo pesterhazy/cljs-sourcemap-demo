@@ -1,12 +1,12 @@
 Compiling ClojureScript...
 Compiling ["compiled/first.js"] from ["src/first"]...
-Successfully compiled ["compiled/first.js"] in 30.221 seconds.
+Successfully compiled ["compiled/first.js"] in 24.767 seconds.
 Trace
-    at Function.demo.first._main (/Users/mkarp/Workspace/playground/cljs-sourcemap-demo/compiled/first.js:2084:353)
-    at Function.cljs.core.apply_to_simple.cljs$core$IFn$_invoke$arity$2 (/Users/mkarp/Workspace/playground/cljs-sourcemap-demo/compiled/first.js:887:154)
-    at Function.cljs.core.apply.cljs$core$IFn$_invoke$arity$2 (/Users/mkarp/Workspace/playground/cljs-sourcemap-demo/compiled/first.js:900:244)
-    at cljs.core.apply (/Users/mkarp/Workspace/playground/cljs-sourcemap-demo/compiled/first.js:898:84)
-    at Object.<anonymous> (/Users/mkarp/Workspace/playground/cljs-sourcemap-demo/compiled/first.js:2086:623)
+    at Function.demo.first._main (/Users/mkarp/Workspace/playground/cljs-sourcemap-demo/compiled/first.js:2112:427)
+    at Function.cljs.core.apply_to_simple.cljs$core$IFn$_invoke$arity$2 (/Users/mkarp/Workspace/playground/cljs-sourcemap-demo/compiled/first.js:881:154)
+    at Function.cljs.core.apply.cljs$core$IFn$_invoke$arity$2 (/Users/mkarp/Workspace/playground/cljs-sourcemap-demo/compiled/first.js:894:244)
+    at cljs.core.apply (/Users/mkarp/Workspace/playground/cljs-sourcemap-demo/compiled/first.js:892:84)
+    at Object.<anonymous> (/Users/mkarp/Workspace/playground/cljs-sourcemap-demo/compiled/first.js:2114:633)
     at Module._compile (module.js:662:30)
     at Object.Module._extensions..js (module.js:673:10)
     at Module.load (module.js:575:32)

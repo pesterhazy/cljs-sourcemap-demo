@@ -16,7 +16,7 @@ This will produce a stacktrace mentioning the `*.cljs` files (full output can be
     ...
 ```
 
-Then run the same command with optimizations enabled
+Then run the same command with optimizations enabled:
 
 ```
 lein prod && node compiled/first.js
