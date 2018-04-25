@@ -1,0 +1,15 @@
+.nrepl-port
+.nrepl-history
+.lein-repl-history
+.lein-failures
+*.jar
+*.class
+.idea
+*.iml
+.DS_Store
+.DS_Store?
+._*
+.smbdelete*
+node_modules
+compiled
+package-lock.json

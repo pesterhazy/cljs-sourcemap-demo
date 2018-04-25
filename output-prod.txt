@@ -1,0 +1,14 @@
+Compiling ClojureScript...
+Compiling ["compiled/first.js"] from ["src/first"]...
+Successfully compiled ["compiled/first.js"] in 30.221 seconds.
+Trace
+    at Function.demo.first._main (/Users/mkarp/Workspace/playground/stacktrace-demo-simple/compiled/first.js:2084:353)
+    at Function.cljs.core.apply_to_simple.cljs$core$IFn$_invoke$arity$2 (/Users/mkarp/Workspace/playground/stacktrace-demo-simple/compiled/first.js:887:154)
+    at Function.cljs.core.apply.cljs$core$IFn$_invoke$arity$2 (/Users/mkarp/Workspace/playground/stacktrace-demo-simple/compiled/first.js:900:244)
+    at cljs.core.apply (/Users/mkarp/Workspace/playground/stacktrace-demo-simple/compiled/first.js:898:84)
+    at Object.<anonymous> (/Users/mkarp/Workspace/playground/stacktrace-demo-simple/compiled/first.js:2086:623)
+    at Module._compile (module.js:662:30)
+    at Object.Module._extensions..js (module.js:673:10)
+    at Module.load (module.js:575:32)
+    at tryModuleLoad (module.js:515:12)
+    at Function.Module._load (module.js:507:3)
