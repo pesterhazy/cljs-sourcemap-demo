@@ -13,6 +13,7 @@ This will produce a stacktrace mentioning the `*.cljs` files (full output can be
 ```
 [object Object]
     at Function.demo$first$_main (.../compiled/first.out/demo/first.cljs:4:11)
+    ...
 ```
 
 Then run the same command with optimizations enabled
