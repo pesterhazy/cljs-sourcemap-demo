@@ -6,4 +6,4 @@ set -x
 npm install
 rm -rf compiled
 lein prod
-node out/first.js
+node compiled/first.js
