@@ -10,15 +10,13 @@
   :aliases {"dev" ["do" ["clean"] ["cljsbuild" "once" "first"]]
             "prod" ["do" ["clean"] ["with-profile" "prod" "cljsbuild" "once" "first"]]}
 
-  :cljsbuild {:builds {:first {:source-paths ["src/first"]
-                               :compiler {:output-to "compiled/first.js"
-                                          :output-dir "compiled/first.out"
-                                          :asset-path "compiled/first.out"
+  :cljsbuild {:builds {:first {:source-paths ["src"]
+                               :compiler {:output-to "out/first.js"
+                                          :output-dir "out"
                                           :optimizations :none
                                           :target :nodejs
+                                          :source-map "out/first.js.map"
                                           :main demo.first}}}}
 
-  :jvm-opts ["--add-modules" "java.xml.bind"]
-
-  :profiles {:prod {:cljsbuild {:builds {:first {:compiler {:optimizations :simple
-                                                            :source-map "compiled/first.js.map"}}}}}})
+  :profiles {:prod {:cljsbuild {:builds {:first
+                                         {:compiler {:optimizations :simple}}}}}})
